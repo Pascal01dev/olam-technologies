@@ -1,0 +1,1593 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* the start of the sign up form stylinf in css*/
+/*body styling with css*/
+.body1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+   /* display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+
+.body1 section{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body1 header{
+    background: transparent;
+}
+
+.body1 header h1{
+    color: white;
+}
+
+.body1 header nav a{
+    color:  rgb(77, 250, 25);
+}
+
+
+/*styling the form section with css*/
+.formsec{
+    
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.formsec form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 100px rgb(77, 250, 25);
+}
+
+
+.consent{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/*styling form elements with css*/
+.everything h1,h2{
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.input-lable{
+    position: relative;
+}
+
+
+/*styling form element collection with css*/
+.input-lable input{
+    margin-bottom: 25px;
+    height: 25px;
+    width: 300px;
+    outline: none;
+    background: transparent;
+    border:  none;
+    border-bottom: 3px solid #ffffff;
+    padding-left: 0px;
+    font-size: 15px;
+    color: white;
+}
+
+
+.input-lable label{
+    color: #ffffff;
+    position: absolute;
+    left: 2px;
+    transition: .3s ease-in-out;
+    top: 5px;
+}
+
+.input-lable input:focus~label,
+.input-lable input:valid~label{
+    top: -20px;
+}
+
+
+.btn button{
+    height: 35px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:  none;
+    border-radius: 5px;
+}
+
+
+.collection p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+
+.collection a{
+    color: rgb(54, 233, 30);
+}
+/* the end of the sign up form stylinf in css*/
+
+
+
+
+
+/* the start of the login up form stylinf in css*/
+.body2{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+   /* display: grid;
+    align-items: center;
+    justify-content: center;*/
+}
+
+.body2 header{
+    background: transparent;
+}
+
+.body2 .logo{
+    color: white;
+}
+
+.body2 nav a{
+    color: deepskyblue;
+}
+
+.login-sec{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form2{
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    box-shadow: 0 0 50px deepskyblue;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.form-properties h1,h2{
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+.inputs input{
+    color: white;
+    margin-bottom: 25px;
+    height: 25px;
+    width: 300px;
+    outline: none;
+    background: transparent;
+    border:  none;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding-left: 0px;
+    font-size: 20px;
+}
+
+
+
+
+.logbtn button{
+    width: 300px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: deepskyblue;
+    font-size: 20px;
+}
+
+
+.signup p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.signup a{
+    color: deepskyblue;
+}
+/*the end of the login form styling in css */
+
+
+
+
+/*the begining of the home section formating in css*/
+/*{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}*/
+
+
+header{
+    width: 95%;
+    height: 15vh;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+   /* margin-left: 10px;*/
+    padding-left: 20px;
+    padding-right: 50px;
+    position: sticky;
+    top: 0px;
+    top: 0px;
+}
+
+header img{
+    display: none;
+}
+
+
+.logo{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*the hero section*/
+#Home{
+    width: 95%;
+    height: 100vh;
+    background-image: url(TOOLS/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.home-collect{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.herotext{
+    text-align: center;
+}   
+
+.herotext h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: black;
+}
+
+.herotext h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+
+.herotext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.heroimg img{
+    height: 400px;
+    width: 400px;
+}
+
+
+/*About section styling with css  */
+.About{
+    height: 105vh;
+    width: 95%;
+    background-color: #cac4c4;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+
+.about-heading{
+    display: grid;
+    place-items: center;
+}
+
+.about-heading h1{
+    background-color: white;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-size: 50px;
+    margin: 15px;
+}
+
+
+.aboutpar{
+    background-color: deepskyblue;
+    height: 250px;
+    width: 98%;
+    margin-left: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.aboutpar p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+
+.aboutcombination{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25PX;
+}
+
+
+.mission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.missionhead h3{
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    width: 200px;
+    background-color: black;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 40%;
+}
+.mission p{
+    background-color: rgb(4, 230, 16);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+}
+
+
+.vision{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.visionhead h3{
+    margin: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    width: 200px;
+    background-color: rgb(245, 231, 31);
+    text-align: center;
+    font-size: 30px;
+    border-radius: 40%;
+}
+.vision p{
+    background-color: rgb(4, 230, 16);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+}
+
+
+.goal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.goalhead h3{
+    margin: 5px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    background-color: rgb(247, 20, 20);
+    text-align: center;
+    font-size: 30px;
+    border-radius: 40%;
+}
+.goal p{
+    background-color: rgb(4, 230, 16);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+}
+
+
+.about button{
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 580px;
+    border: none;
+}
+
+.about button a{
+    color: white;
+    text-decoration: none;
+}
+
+/*formating the services section with css*/
+.our-services{
+    height: 85vh; 
+    width: 95%;
+    background-image: linear-gradient(150deg, #686867 10%, #f4efe6 70%);
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-top: 5px;
+}
+
+
+.services h3{
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.services-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.service-img img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+#servimg1{
+    height: 280px;
+    width: 450px;
+}
+
+
+.service-text1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    color: white;
+    height: 150px;
+    width: 445px;
+    background-color: blue;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.service-text1 p{
+    font-size: 20px;
+    padding-left: 45px;
+}
+
+
+#servimg2{
+    height: 235px;
+    width: 400px;
+}
+
+
+.service-text2{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    color: white;
+    height: 105px;
+    width: 395px;
+    background-color: blue;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.service-text2 p{
+    font-size: 15px;
+    padding-left: 40px;
+}
+
+
+#servimg3{
+    height: 185px;
+    width: 350px;
+}
+
+
+.service-text3{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    color: white;
+    height: 100px;
+    width: 345px;
+    background-color: blue;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.service-text3 p{
+    font-size: 15px;
+    padding-left: 40px;
+}
+
+
+.service-btn button{
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 580px;
+    border: none;
+}
+
+.service-btn button a{
+    color: white;
+    text-decoration: none;
+}
+
+/*formating the career section with css*/
+.career{
+    height: 80vh;
+    width: 95%;
+    background-color: #faf8f8;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*formating the comment section with css*/
+.comment h1{
+    font-size: 40px;
+    color: #cac4c4;
+}
+
+
+.contact{
+    height: 90vh;
+    width: 95%;
+    background-color: #cac4c4;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+
+.contact-head h2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: left;
+}
+
+.contact-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input textarea{
+    border-radius: 15px;
+    width: 600px;
+    height: 400px;
+    font-size: 25px;
+    padding: 10px;
+    outline: none;
+    resize: none;
+}
+
+
+.input textarea::placeholder{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+
+.client input{
+    margin: 20px;
+    width: 250px;
+    height: 30px;
+    outline: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+.live-map img{
+    width: 600px;
+    height: 250px;
+    font-size: 25px;
+}
+
+
+.live-map h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.contact-btn button{
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 245px;
+    border: none;
+    color: white;
+
+}
+
+/*formating the footer with css*/
+footer{
+    height: 30vh;
+    width: 95%;
+    padding-left: 20px;
+    padding-right: 50px;
+    background-color: #766f90;
+}
+
+
+.footer-head h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: left;
+}
+
+
+.footer-contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+
+.call img{
+    height: 50px;
+}
+
+.icon img{
+    margin-left: 140px;
+    margin-bottom: 3px;
+    height: 60px;
+    width: 60px;
+}
+
+
+.footer-nav nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+
+.footer-nav nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+.footer-copright p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+/* About details formatin with css */
+.About-details{
+    height: 160vh;
+    width: 95%;
+    background-color: #cac4c4;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+
+.About-details h1{
+    padding-top: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.About-details p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.About-list{
+    background-color: deepskyblue;
+    height: 250px;
+    width: 98%;
+    margin-left: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.About-comb{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.About-comb .About-mission h2{
+    padding: 10px;
+    margin-left: 100px;
+    background-color: black;
+    border-radius: 40%;
+    width: 200px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.About-mission .missionpar{
+    width: 400px;
+    height:300px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+.About-comb .About-mission p{
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.About-comb .About-vision h2{
+    padding: 10px;
+    margin-left: 100px;
+    background-color: yellow;
+    color: black;
+    border-radius: 40%;
+    width: 200px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.About-vision .visionpar{
+    width: 400px;
+    height:300px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+.About-comb .About-vision p{
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.About-comb .About-goal h2{
+    padding: 10px;
+    margin-left: 100px;
+    background-color: red;
+    border-radius: 40%;
+    width: 200px;
+    margin-top: 30px; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.About-goal .goalpar{
+    width: 400px;
+    height:300px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+
+.About-comb .About-goal p{
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.About-staff{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.staff-details{
+    display: grid;
+    place-items: center;
+}
+
+.staff-img img{
+    border-radius: 100%;
+    height: 170px;
+    width: 130px;
+}
+
+
+.staff-text h2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.staff-text h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.staff-contact a img{
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+}
+
+/* THE START OF DETAILED SERVICES PAGE IN CSS*/
+.Detailed-services {
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    width: 100vw;
+    background: linear-gradient(180deg,rgb(255, 255, 255), rgb(158, 163, 158));
+}
+
+.Detailed-services h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    
+}
+
+
+.service-main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: balance;
+}
+.Service-details{
+    background-color: #491de9;
+    width: 400px;
+    height: 400px; 
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+.Service-details img{
+    width: 400px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Service-details h3{
+    font-size: 20px;
+    padding: 5px;
+    line-height: 10px;
+}
+
+.Service-details p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 30px;
+    line-height: 35px;
+}
+
+
+/*responsive site*/
+@media screen and (max-width:500px){
+    header{
+        display: none;
+    }
+
+    header img{
+        display: flex;
+    }
+
+    #Home{
+        width: 85%;
+        padding-top: 15px;
+       
+    }
+
+
+    .home-collect{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 10px;
+    }
+
+    .herotext h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 45px;
+        font-weight: bold;
+}
+
+.herotext h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: black;
+}
+
+.herotext p{
+    font-size: 25px;
+}
+
+.heroimg img{
+    width: 300px;
+    height: 300px;
+}
+
+
+.About{
+    display: flex;
+    flex-direction: column;
+}
+
+.About{
+    height: 190vh;
+    width: 85%;
+    background-color: #cac4c4;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+
+.about-heading{
+    display: grid;
+    place-items: center;
+}
+
+.about-heading h1{
+    background-color: white;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-size: 20px;
+    margin: 30px;
+    gap: 10px;
+}
+
+
+.aboutpar{
+    background-color: deepskyblue;
+    height: 200px;
+    width: 80%;
+    margin-left: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.aboutpar p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+.aboutcombination{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25PX;
+}
+
+.mission{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+
+
+.vision{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+.goal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.about button{
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 150px;
+    border: none;
+}
+
+.about button a{
+    color: white;
+    text-decoration: none;
+}
+
+.our-services{
+    height: 195vh; 
+    width: 85%;
+    background-image: linear-gradient(150deg, #686867 10%, #f4efe6 70%);
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-top: 5px;
+}
+
+.service{
+    margin-bottom: 30px;
+}
+
+.services h3{
+    font-size: 25px;
+}
+
+.services-list{
+    display: flex;
+    flex-direction: column;
+}
+
+#servimg1{
+    height: 200px;
+    width: 350px;
+}
+
+
+.service-text1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    color: white;
+    height: 180px;
+    width: 345px;
+    background-color: blue;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.service-text1 p{
+    font-size: 20px;
+    padding-left: 45px;
+}
+
+
+#servimg2{
+    height: 200px;
+    width: 350px;
+}
+
+
+.service-text2{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    color: white;
+    height: 150px;
+    width: 345px;
+    background-color: blue;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.service-text2 p{
+    font-size: 20px;
+    padding-left: 45px;
+}
+
+
+#servimg3{
+    height: 200px;
+    width: 345px;
+}
+
+
+.service-text3{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    color: white;
+    height: 150px;
+    width: 340px;
+    background-color: blue;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.service-text3 p{
+    font-size: 20px;
+    padding-left: 45px;
+}
+
+
+.service-btn button{
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 150px;
+    border: none;
+}
+
+.career{
+    width: 85%;
+}
+.career h1{
+    font-size: 10px;
+    text-align: center;
+}
+
+.comment h1{
+    font-size: 20px;
+    color: #cac4c4;
+}
+
+
+.contact{
+    height: 120vh;
+    width: 85%;
+    background-color: #cac4c4;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+
+.contact-head h2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+.contact-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.input textarea{
+    border-radius: 15px;
+    width: 400px;
+    height: 200px;
+    font-size: 25px;
+    padding: 10px;
+    outline: none;
+    resize: none;
+}
+
+
+.input textarea::placeholder{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+
+.client input{
+    margin: 20px;
+    width: 150px;
+    height: 30px;
+    outline: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.client input::placeholder{
+    font-size: 15px;
+}
+
+
+.live-map iframe{
+    border-radius: 10px;
+    width: 430px;
+    height: 250px;
+}
+
+
+.live-map h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+
+.contact-btn button{
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 140px;
+    border: none;
+    color: white;
+
+}
+
+
+footer{
+    height: 28vh;
+    width: 85%;
+    padding-left: 20px;
+    padding-right: 50px;
+    background-color: #766f90;
+}
+
+
+.footer-head h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+.footer-contact{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.call{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+
+.call img{
+    height: 25px;
+}
+
+.icon img{
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+
+.footer-nav nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    
+}
+
+
+.footer-nav nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+.footer-copright p{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+/* Detailed about page responsive design */
+
+.About-main .About-details{
+    height: 290vh;
+    width: 85%;
+
+}
+
+.detailedpar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.About-main .About-details h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.About-main .About-details .About-list{
+    width: 80vw;
+    height: 50vh;
+}
+
+.About-main .About-details p{
+    font-size: 18px;
+}
+
+.About-comb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.About-comb .About-mission h2 {
+    background-color: black;
+    height: 25px;
+    border-radius: 400%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.About-mission .missionpar{
+    width: 300px;
+    height: 250px;
+     border-radius: 20px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.About-comb .About-mission p{
+ text-align: center;
+}
+
+
+.About-comb .About-vision h2 {
+    background-color: yellow;
+    height: 25px;
+    border-radius: 400%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.About-vision .visionpar{
+    width: 300px;
+    height: 250px;
+     border-radius: 20px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.About-comb .About-vision p{
+ text-align: center;
+}
+
+.About-comb .About-goal h2 {
+    background-color: red;
+    height: 25px;
+    border-radius: 400%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.About-goal .goalpar{
+    width: 300px;
+    height: 250px;
+     border-radius: 20px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.About-comb .About-vision p{
+ text-align: center;
+}
+
+
+.About-staff{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.staff-img img{
+    border-radius: 100%;
+    height: 100px;
+    width: 80px;
+}
+
+
+.staff-text h2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.staff-text h3{
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.staff-contact a img{
+    height: 30px;
+    width: 30px;
+    margin: 2px 10px 30px 0px;
+}
+
+
+/* THE START OF DETAILED SERVICES PAGE IN CSS*/
+.Detailed-services {
+    display: flex;
+    flex-direction: column;
+    height: 620vh;
+    width: 99%;
+    background: linear-gradient(180deg,rgb(255, 255, 255), rgb(158, 163, 158));
+}
+
+.Detailed-services h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+}
+
+
+.service-main{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    gap: balance;
+}
+.Service-details{
+    background-color: #491de9;
+    width: 400px;
+    height: 400px; 
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+.Service-details img{
+    width: 400px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Service-details h3{
+    font-size: 20px;
+    padding: 5px;
+    line-height: 10px;
+}
+
+.Service-details p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 30px;
+    line-height: 35px;
+}
+
+
+}
